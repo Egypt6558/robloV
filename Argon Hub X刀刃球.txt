@@ -1,0 +1,270 @@
+local Translations = {
+    ["Hub X"] = "中心 X",
+    ["v2.8.8"] = "版本 2.8.8",
+    ["by agentX77"] = "作者 agentX77",
+    ["Search"] = "搜索",
+    ["Home"] = "主页",
+    ["Main"] = "主菜单",
+    ["Blatant"] = "显性功能",
+    ["脚本大帝"] = "脚本大帝",
+    ["Emotes"] = "表情动作",
+    ["Select your favorite emote."] = "选择您最喜爱的表情。",
+    ["Refresh Emotes"] = "刷新表情",
+    ["Puts all emotes in the dropdown."] = "将所有表情加载到下拉菜单中。",
+    ["Play Emote"] = "播放表情",
+    ["Play Emote by Win"] = "胜利时播放表情",
+    ["Triggerbot"] = "触发机器人",
+    ["Block instant when they target you."] = "当他们锁定你时立即格挡。",
+    ["Detections"] = "检测功能",
+    ["Infinity Detection"] = "无限检测",
+    ["Avoid accidental crashes by having the skill."] = "拥有此技能以避免意外崩溃。",
+    ["Death Slash Detection"] = "死亡斩击检测",
+    ["Generates the shot when activating the ability."] = "激活能力时生成射击。",
+    ["Time Hole Detection"] = "时间空洞检测",
+    ["Avoid fallbox when someone has that skill."] = "当有人拥有该技能时避免坠落箱。",
+    ["Skin Changer"] = "皮肤更换器",
+    ["Changes the appearance of your sword."] = "更改您剑的外观。",
+    ["Award Name"] = "奖项名称",
+    ["Playing AI"] = "对战 AI",
+    ["AI Auto Play"] = "AI 自动游戏",
+    ["Auto Play will play the games for you."] = "自动游戏将为您进行游戏。",
+    ["Random Stall"] = "随机暂停",
+    ["Blatant Options"] = "显性选项",
+    ["Curve Type"] = "曲线类型",
+    ["Select where you want to direct it"] = "选择您希望引导球的方向",
+    ["Random Curve"] = "随机曲线",
+    ["Select random a curve when targt"] = "当被锁定时随机选择一条曲线",
+    ["Manual Spam"] = "手动连发",
+    ["Accelerated"] = "加速",
+    ["Up"] = "上",
+    ["Down"] = "下",
+    ["Left"] = "左",
+    ["Right"] = "右",
+    ["Backwards"] = "后",
+    ["Straight"] = "直",
+    ["Auto Parry"] = "自动格挡",
+    ["The Auto Parry Blocks the ball."] = "自动格挡会挡住球。",
+    ["Auto Spam"] = "自动连发",
+    ["The Auto Spam started a booster."] = "自动连发启动了一个加速器。",
+    ["Parry Accuracy"] = "格挡准确度",
+    ["Change the parry prediction."] = "更改格挡预判。",
+    ["Random Acurracy"] = "随机准确度",
+    ["Hello, 脚本大帝"] = "你好，脚本大帝",
+    ["Argon Hub X embodies the spirit of a pitbull: fearless, powerful, and unbreakable."] = "Argon Hub X 体现了斗牛犬的精神：无畏、强大且坚不可摧。",
+    ["In Blade Ball, it unleashes unmatched strength with highly advanced interception methods that push performance to the next level."] = "在 Blade Ball 中，它通过高度先进的拦截方法释放无与伦比的力量，将表现推向新高度。",
+    ["With the latest update, the AI system was added, ensuring an improved experience in competitions, clashes, and parries."] = "随着最新更新，AI 系统被添加，确保在竞赛、冲突和格挡中提供更佳体验。",
+    ["Official Site"] = "官方网站",
+    ["Copy Official Site"] = "复制官方网站",
+    ["Copy the official Argon Hub X website to clipboard."] = "将官方 Argon Hub X 网站复制到剪贴板。",
+    ["Ball Distance"] = "球距离",
+    ["Enemy Distance"] = "敌人距离",
+    ["Jump Interval"] = "跳跃间隔",
+    ["Stops autoplay at a random time."] = "在随机时间停止自动游戏。",
+    ["Auto Rewards"] = "自动奖励",
+    ["Claim your rewards and codes."] = "领取您的奖励和兑换码。",
+    ["Auto Jump"] = "自动跳跃",
+    ["Automatically jumps at a random moment."] = "在随机时刻自动跳跃。",
+    ["Auto Double Jump"] = "自动二段跳",
+    ["Double-jump at a random moment."] = "在随机时刻进行二段跳。",
+    ["方块"] = "方块",
+    ["能力"] = "能力",
+    ["Camera"] = "摄像机",
+    ["ATR"] = "ATR",
+    ["任务"] = "任务",
+    ["技能"] = "技能",
+    ["皮肤"] = "皮肤",
+    ["线上皮肤"] = "线上皮肤",
+    ["表情"] = "表情动作",
+    ["Player Options"] = "玩家选项",
+    ["Speed"] = "速度",
+    ["Choose the speed of your character."] = "选择您角色的移动速度。",
+    ["Jump Power"] = "跳跃力量",
+    ["Choose the jump power of your character."] = "选择您角色的跳跃力量。",
+    ["Enable Speed and Jump"] = "启用速度与跳跃",
+    ["Player Effects"] = "玩家特效",
+    ["Time Hole Detection"] = "时间空洞检测",
+    ["Avoid failing when someone has that skill."] = "当有人拥有该技能时避免失败。",
+    ["Slash of Fury Detection"] = "狂怒斩击检测",
+    ["Generates 32 exact locks for your."] = "为您生成32个精确锁定。",
+    ["Protections"] = "保护功能",
+    ["Auto Dribble Attack"] = "自动运球攻击",
+    ["Use Dribble as a blocking method."] = "使用运球作为格挡方法。",
+    ["Anti Phantom Attack"] = "防幻影攻击",
+    ["Prevents your speed from being reduced by the attack."] = "防止您的速度因该攻击而降低。",
+    ["Cooldown Protection"] = "冷却保护",
+    ["Use your ability as protection in case of an accidental block."] = "在意外格挡时使用您的能力作为保护。",
+    ["Skills"] = "技能",
+    ["Auto Ability"] = "自动能力",
+    ["Use your ability as a block."] = "使用您的能力进行格挡。",
+    ["Auto Parry Lobby"] = "自动格挡大厅",
+    ["Watch"] = "观察",
+    ["Activates korbiox and headless effects."] = "激活Korbiox和无头特效。",
+    ["Ability ESP"] = "技能透视",
+    ["Displays the name of the player’s skills."] = "显示玩家技能的名称。",
+    ["No Render"] = "无渲染",
+    ["Optimize the game without damaging the graphics."] = "优化游戏而不损害画质。",
+    ["Argon Hub X | Intelligence"] = "Argon Hub X | 智能中心",
+    ["Member Count : 1853"] = "成员数量：1853",
+    ["Online Count : 214"] = "在线数量：214",
+    ["Join Discord"] = "加入 Discord",
+    ["Update Info"] = "更新信息",
+    ["Update information on Discord."] = "在 Discord 上获取更新信息。",
+    ["Products"] = "产品",
+    ["Keybind to ToqaleUI"] = "绑定按键到 ToqaleUI",
+    ["Close Window"] = "关闭窗口",
+    ["Do you want to close this window?"] = "您想要关闭这个窗口吗？",
+    ["You will not be able to open it again."] = "您将无法再次打开它。",
+    ["Cancel"] = "取消",
+    ["Semi Immortal"] = "半无敌",
+    ["Prevents the ball from killing you."] = "防止球击杀您。",
+    ["Select the Semi-Immortal configuration."] = "选择半无敌配置。",
+    ["Not..."] = "非...",
+    ["Not Walkable"] = "不可行走",
+    ["Sword Name"] = "剑名",
+    ["Semi Inmortal"] = "半室内",
+    ["Settings"] = "设置",
+    ["Walkable"] = "适合步行",
+    ["Others"] = "其它",
+    ["Ramdom Accuracy"] = "随机精度",
+    ["/e dance"] = "/e 跳舞",
+    ["# 67"] = "# 67",
+    ["# Abracadabra"] = "# 咒语",
+    ["p  "] = "p  ",
+    ["P  "] = "P  ",
+    ["Aetherial Azure Spin"] = "以太蔚蓝旋转",
+    ["Aetherial Lance Emote"] = "以太长枪表情",
+    ["Aetherwatch Scythe Emote"] = "天界守望镰刀表情",
+    ["Affection Waltz"] = "深情华尔兹",
+    ["Air Guitar"] = "空气吉他",
+    ["Air Punch"] = "空气拳击",
+    ["Amber Edge Emote"] = "琥珀锋刃表情",
+    ["Anchor Lift"] = "起锚",
+    ["Ancient Book"] = "远古之书",
+    ["Ancient Channeling"] = "远古引导",
+    ["Ancient Mark"] = "远古印记",
+    ["Angel Blasters Emote"] = "天使冲击波表情",
+    ["Angel Greatsword Emote"] = "天使巨剑表情",
+    ["Anger Management"] = "愤怒管理",
+    ["Abyssal Shield Emote"] = "深渊盾牌表情",
+    ["Ace Emote"] = "王牌表情",
+    ["Behind"] = "在…后面",
+    ["Random"] = "随意",
+    ["RandomTarget"] = "随机目标",
+    ["Select where you want to direct the ball."] = "选择您想要引导球的位置",
+    ["Select random a curve when targeted."] = "选择随机曲线作为目标",
+    ["Normal"] = "常态"
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    for en, cn in pairs(Translations) do
+        if text:find(en) then
+            return text:gsub(en, cn)
+        end
+    end
+    
+    return text
+end
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+        
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        setreadonly(getrawmetatable(game), true)
+    end)
+    
+    if not success then
+        warn("元表劫持失败:", err)
+       
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+            
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait(0.1)
+                    pcall(function()
+                        local text = descendant.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                descendant.Text = translatedText
+                            end
+                        end
+                    end)
+                end
+            end)
+        end
+        
+        pcall(setupDescendantListener, game:GetService("CoreGui"))
+        local player = game:GetService("Players").LocalPlayer
+        if player and player:FindFirstChild("PlayerGui") then
+            pcall(setupDescendantListener, player.PlayerGui)
+        end
+        
+        while true do
+            scanAndTranslate()
+            task.wait(3)
+        end
+    end
+end
+
+task.wait(2)
+
+setupTranslationEngine()
+
+local success, err = pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AgentX771/ArgonHubX/main/Loader.lua"))()
+
+
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
