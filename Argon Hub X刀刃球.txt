@@ -152,8 +152,32 @@ local Translations = {
     ["RandomTarget"] = "随机目标",
     ["Select where you want to direct the ball."] = "选择您想要引导球的位置",
     ["Select random a curve when targeted."] = "选择随机曲线作为目标",
-    ["Normal"] = "常态"
+    ["Normal"] = "常态",
+    ["The Anti-Cheat Interception was completed Success: Ro36iE"] = "反作弊拦截成功完成:Ro36iE",
+    ["The Semi-Immortal is Enabled."] = "半无敌被激活了。",
+    ["TRADE"] = "交易",
+    ["A33 (DOWN PAYMENT)"] = "A33 (首付)",
+    ["MISSIONS"] = "任务",
+    ["SKILLS"] = "技能",
+    ["SKINS"] = "皮肤",
+    ["CLANS"] = "公会",
+    ["SEARCH"] = "搜索",
+    ["HOME"] = "主页",
+    ["MAIN MENU"] = "主菜单",
+    ["WELCOME BACK"] = "欢迎回来",
+    ["Zod.0oh.04"] = "Zod.0oh.04",
+    ["Version 2.8.8"] = "版本 2.8.8",
+    ["Hello, GGOQ481"] = "你好，GGOQ481",
+    ["Argon Hub X embodies the spirit of a pitbull: fearless, powerful, and unbreakable."] = "Argon Hub X 体现了斗牛犬的精神：无畏、强大、坚不可摧。",
+    ["In Blade Ball, it unleashes unmatched strength with highly advanced interception methods that push performance to the next level."] = "在 Blade Ball 中，它通过高度先进的拦截方法释放无与伦比的力量，将性能推向新高度。",
+    ["With the latest update, the AI system was added, ensuring an improved experience in competitions, clashes, and parries."] = "最新更新加入了 AI 系统，确保在竞技、对抗和格挡中获得更佳的体验。",
+    ["OFFICIAL WEBSITE"] = "官方网站",
+    ["GGOQ481"] = "GGOQ481",
+    ["@GGOQ481"] = "@GGOQ481",
+    ["Copy Official Website"] = "复制官方网站",
+    ["Copy the official Argon Hub X website to clipboard."] = "将官方 Argon Hub X 网站复制到剪贴板。"
 }
+
 
 local function translateText(text)
     if not text or type(text) ~= "string" then return text end
