@@ -175,9 +175,11 @@ local Translations = {
     ["GGOQ481"] = "GGOQ481",
     ["@GGOQ481"] = "@GGOQ481",
     ["Copy Official Website"] = "复制官方网站",
-    ["Copy the official Argon Hub X website to clipboard."] = "将官方 Argon Hub X 网站复制到剪贴板。"
+    ["Copy the official Argon Hub X website to clipboard."] = "将官方 Argon Hub X 网站复制到剪贴板。",
+    ["Avatar Changer"] = "虚拟形象更换器",
+    ["Changes the appearance of your character."] = "改变角色的外观。",
+    ["username"] = "用户名"
 }
-
 
 local function translateText(text)
     if not text or type(text) ~= "string" then return text end
